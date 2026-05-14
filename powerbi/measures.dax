@@ -1,0 +1,10 @@
+Total Watch Hours = DIVIDE(SUM(Watch_History[Watch_Duration]), 60)
+Daily Active Users = DISTINCTCOUNT(Watch_History[User_ID])
+Average Completion Rate = AVERAGE(Watch_History[Completion_Rate])
+Churn Rate = DIVIDE(CALCULATE(COUNTROWS(Users), Users[Churn_Status] = "Churned"), COUNTROWS(Users))
+Subscription Revenue = SUMX(Users, RELATED(Subscription_Plans[Monthly_Price_USD]))
+Revenue Per User = DIVIDE([Subscription Revenue], DISTINCTCOUNT(Users[User_ID]))
+Premium Plan Adoption = DIVIDE(CALCULATE(DISTINCTCOUNT(Users[User_ID]), Users[Subscription_Type] = "Premium"), DISTINCTCOUNT(Users[User_ID]))
+Engagement Score = [Total Watch Hours] * 0.45 + [Daily Active Users] * 0.25 + [Average Completion Rate] * 1000 * 0.30
+Content Retention Rate = DIVIDE(CALCULATE(DISTINCTCOUNT(Watch_History[User_ID]), Watch_History[Completion_Rate] >= 0.8), DISTINCTCOUNT(Watch_History[User_ID]))
+Weekend Watch Share = DIVIDE(CALCULATE(SUM(Watch_History[Watch_Duration]), WEEKDAY(Watch_History[Watch_Time],2) >= 6), SUM(Watch_History[Watch_Duration]))
