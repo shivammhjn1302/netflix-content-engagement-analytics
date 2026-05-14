@@ -1,0 +1,5 @@
+Plan_ID,Subscription_Type,Monthly_Price_USD,Max_Streams,Resolution
+P_BASIC,Basic,7.99,1,HD
+P_STANDARD,Standard,12.99,2,Full HD
+P_PREMIUM,Premium,18.99,4,4K Ultra HD
+P_MOBILE,Mobile,4.99,1,Mobile HD
