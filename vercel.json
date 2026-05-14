@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "outputDirectory": "public",
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --ignore-scripts",
+  "framework": null,
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
+}

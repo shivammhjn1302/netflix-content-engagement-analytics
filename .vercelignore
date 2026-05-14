@@ -1,0 +1,6 @@
+*
+!public
+!public/**
+!package.json
+!vercel.json
+!.vercelignore
