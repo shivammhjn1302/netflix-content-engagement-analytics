@@ -1,0 +1,21 @@
+{
+  "roc_auc": 0.7179748214481175,
+  "churn_rate": 0.18305387882852672,
+  "sessions": 132000,
+  "users": 24000,
+  "content_titles": 1500,
+  "reviews": 52000,
+  "model_features": [
+    "total_watch_minutes",
+    "sessions",
+    "avg_completion",
+    "unique_genres",
+    "weekend_share",
+    "mobile_share",
+    "revenue",
+    "Age",
+    "Subscription_Type_Mobile",
+    "Subscription_Type_Premium",
+    "Subscription_Type_Standard"
+  ]
+}
