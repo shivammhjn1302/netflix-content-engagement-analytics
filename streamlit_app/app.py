@@ -8,7 +8,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parents[1]
 st.set_page_config(page_title='Netflix Content Strategy Analytics', page_icon='🎬', layout='wide')
 st.markdown('''<style>
-.stApp{background:radial-gradient(circle at 15% 5%,#3b0710 0,transparent 28%),linear-gradient(135deg,#05010d,#090414 55%,#020a16);color:#f8fbff}.block-container{padding-top:2rem}.metric-card{background:#11162fee;border:1px solid #31385f;border-radius:18px;padding:18px;box-shadow:0 0 24px rgba(229,9,20,.14)}h1,h2,h3{color:#fff}.stMetric label{color:#a8b1d6!important}.stMetric div[data-testid="stMetricValue"]{color:#00f5ff}.stTabs [data-baseweb="tab-list"]{gap:10px}.stTabs [data-baseweb="tab"]{background:#11162f;border-radius:999px;color:#fff;border:1px solid #31385f}
+.stApp{background:radial-gradient(circle at 15% 5%,#3b0710 0,transparent 28%),linear-gradient(135deg,#160d07,#2a170c 55%,#090603);color:#f7f0df}.block-container{padding-top:2rem}.metric-card{background:#3a2415ee;border:1px solid rgba(200,164,93,.28);border-radius:18px;padding:18px;box-shadow:0 0 24px rgba(229,9,20,.14)}h1,h2,h3{color:#fff}.stMetric label{color:#b9a98d!important}.stMetric div[data-testid="stMetricValue"]{color:#c8a45d}.stTabs [data-baseweb="tab-list"]{gap:10px}.stTabs [data-baseweb="tab"]{background:#3a2415;border-radius:999px;color:#fff;border:1px solid rgba(200,164,93,.28)}
 </style>''', unsafe_allow_html=True)
 
 @st.cache_data
