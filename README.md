@@ -2,6 +2,14 @@
 
 ![Dashboard Preview](visuals/dashboard_overview.svg)
 
+> Premium OTT analytics platform for content strategy, viewer engagement, churn risk, subscription revenue, recommendations, and executive streaming intelligence.
+
+## Hero Section
+
+**Streaming Intelligence for Content, Retention, and Revenue Teams** — a recruiter-ready product analytics case study that converts watch sessions, reviews, content metadata, user profiles, and subscription data into executive KPIs and strategic decisions.
+
+## Project Overview
+
 A production-style, cyberpunk Netflix-inspired analytics platform for OTT strategy teams. The project analyzes viewer behavior, content performance, churn risk, subscription revenue, recommendation opportunities, and global engagement trends using Python, SQL, Streamlit, BI-ready DAX, and machine learning.
 
 ## Business Problem
@@ -89,6 +97,41 @@ pip install -r requirements.txt
 streamlit run streamlit_app/app.py
 ```
 
+## Screenshots
+
+![Dashboard Preview](visuals/dashboard_overview.svg)
+
+Additional screenshot slots for deployment polish:
+
+- `visuals/dashboard_overview.svg`
+- `dashboard/executive_dashboard.html`
+- `public/index.html`
+
+## Installation Guide
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run streamlit_app/app.py
+```
+
+## Deployment Guide
+
+The public-ready cyberpunk dashboard is built into `public/index.html` and can be deployed as a static Vercel site.
+
+```bash
+python src/build_static_dashboard.py
+npx vercel --prod
+```
+
+## Performance Notes
+
+- Static dashboard is prebuilt into `public/index.html` for low-latency recruiter viewing.
+- Streamlit app remains available for deeper interactive exploration.
+- Processed marts separate heavy data generation from presentation for maintainability.
+- Vercel deployment avoids runtime Python dependency for the public dashboard.
+
 ## Static Dashboard / Vercel
 
 The public-ready cyberpunk dashboard is built into `public/index.html`.
@@ -146,5 +189,9 @@ netflix-content-engagement-analytics/
 ```
 
 ---
+
+## Resume Value
+
+Demonstrates end-to-end analytics engineering across synthetic data generation, KPI modeling, advanced SQL, segmentation, churn prediction, recommendation logic, BI design, and static deployment for Product Analyst, Data Analyst, BI Analyst, and Analytics Engineering interviews.
 
 Built as a portfolio-grade streaming analytics case study for Product Analyst, Data Analyst, BI Analyst, and Analytics Engineering interviews.
