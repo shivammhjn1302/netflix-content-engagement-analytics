@@ -2,7 +2,7 @@
   "name": "netflix-content-engagement-analytics",
   "version": "1.0.0",
   "private": true,
-  "description": "Static Vercel deployment for the cyberpunk Netflix content strategy analytics dashboard.",
+  "description": "Static Vercel deployment for the old-money Netflix content strategy analytics dashboard.",
   "scripts": {
     "build": "echo 'Static dashboard ready in public/'"
   }

@@ -27,7 +27,7 @@ def load():
 
 data=load(); enriched=data['enriched']
 st.title('🎬 Netflix Content Strategy & Viewer Engagement Analytics')
-st.caption('Cyberpunk OTT BI dashboard for executive, product, content, and retention strategy teams.')
+st.caption('Old-Money OTT BI dashboard for executive, product, content, and retention strategy teams.')
 
 with st.sidebar:
     st.header('Dynamic Filters')
