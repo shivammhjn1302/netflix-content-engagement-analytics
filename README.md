@@ -10,7 +10,7 @@
 
 ## Project Overview
 
-A production-style, old-money Netflix-inspired analytics platform for OTT strategy teams. The project analyzes viewer behavior, content performance, churn risk, subscription revenue, recommendation opportunities, and global engagement trends using Python, SQL, Streamlit, BI-ready DAX, and machine learning.
+A production-style, professional Netflix-inspired analytics platform for OTT strategy teams. The project analyzes viewer behavior, content performance, churn risk, subscription revenue, recommendation opportunities, and global engagement trends using Python, SQL, Streamlit, BI-ready DAX, and machine learning.
 
 ## Business Problem
 
@@ -31,7 +31,7 @@ flowchart LR
     C --> D[Processed KPI Marts]
     C --> E[ML Models: Churn + Segments]
     D --> F[Streamlit App]
-    D --> G[Old-Money Static Dashboard]
+    D --> G[Professional Static Dashboard]
     D --> H[Power BI / Tableau Layer]
     B --> I[35 Advanced SQL Queries]
 ```
@@ -118,7 +118,7 @@ streamlit run streamlit_app/app.py
 
 ## Deployment Guide
 
-The public-ready old-money dashboard is built into `public/index.html` and can be deployed as a static Vercel site.
+The public-ready professional dashboard is built into `public/index.html` and can be deployed as a static Vercel site.
 
 ```bash
 python src/build_static_dashboard.py
@@ -134,7 +134,7 @@ npx vercel --prod
 
 ## Static Dashboard / Vercel
 
-The public-ready old-money dashboard is built into `public/index.html`.
+The public-ready professional dashboard is built into `public/index.html`.
 
 ```bash
 python src/build_static_dashboard.py
@@ -178,7 +178,7 @@ netflix-content-engagement-analytics/
 ├── dashboard/                 # executive static dashboard
 ├── streamlit_app/             # interactive Streamlit BI app
 ├── reports/                   # strategic insights
-├── visuals/                   # old-money dashboard preview
+├── visuals/                   # professional dashboard preview
 ├── models/                    # ML models and recommendation seed
 ├── src/                       # data and dashboard generation scripts
 ├── public/                    # Vercel static output
