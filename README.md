@@ -2,15 +2,15 @@
 
 ![Dashboard Preview](visuals/dashboard_overview.svg)
 
-> Premium OTT analytics platform for content strategy, viewer engagement, churn risk, subscription revenue, recommendations, and executive streaming intelligence.
+> A Netflix-inspired streaming analytics case study for content strategy, viewer engagement, churn risk, subscription revenue, recommendations, and executive decision-making.
 
 ## Hero Section
 
-**Streaming Intelligence for Content, Retention, and Revenue Teams** — a recruiter-ready product analytics case study that converts watch sessions, reviews, content metadata, user profiles, and subscription data into executive KPIs and strategic decisions.
+**Netflix-style streaming intelligence for content, retention, and revenue teams** — a recruiter-ready product analytics case study that converts watch sessions, reviews, content metadata, user profiles, and subscription data into executive KPIs and strategic decisions.
 
 ## Project Overview
 
-A production-style, professional Netflix-inspired analytics platform for OTT strategy teams. The project analyzes viewer behavior, content performance, churn risk, subscription revenue, recommendation opportunities, and global engagement trends using Python, SQL, Streamlit, BI-ready DAX, and machine learning.
+A production-style Netflix-inspired analytics platform for OTT strategy teams. The project analyzes viewer behavior, content performance, churn risk, subscription revenue, recommendation opportunities, and global engagement trends using Python, SQL, Streamlit, BI-ready DAX, and machine learning.
 
 ## Business Problem
 
